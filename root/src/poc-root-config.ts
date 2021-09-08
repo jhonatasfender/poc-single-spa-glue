@@ -29,7 +29,16 @@ const routes = constructRoutes({
           name: '@poc/react-single',
         },
       ],
-      exact: true,
+    },
+    {
+      type: 'route',
+      path: '/react-multiples',
+      routes: [
+        {
+          type: 'application',
+          name: '@poc/react-multiples',
+        },
+      ],
     },
   ],
 })
