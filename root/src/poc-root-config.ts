@@ -40,6 +40,16 @@ const routes = constructRoutes({
         },
       ],
     },
+    {
+      type: 'route',
+      path: '/react-lazy',
+      routes: [
+        {
+          type: 'application',
+          name: '@poc/react-lazy',
+        },
+      ],
+    },
   ],
 })
 const applications = constructApplications({
