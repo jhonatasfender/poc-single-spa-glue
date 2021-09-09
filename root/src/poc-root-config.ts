@@ -50,6 +50,17 @@ const routes = constructRoutes({
         },
       ],
     },
+    {
+      type: 'route',
+      path: '/react-form',
+      routes: [
+        {
+          type: 'application',
+          name: '@poc/react-form',
+        },
+      ],
+      exact: true,
+    },
   ],
 })
 const applications = constructApplications({
