@@ -15,10 +15,19 @@ const routes = constructRoutes({
       routes: [
         {
           type: 'application',
+          name: '@poc/react-header',
+        },
+      ],
+    },
+    {
+      type: 'route',
+      path: '/welcome',
+      routes: [
+        {
+          type: 'application',
           name: '@single-spa/welcome',
         },
       ],
-      exact: true,
     },
     {
       type: 'route',
@@ -57,6 +66,17 @@ const routes = constructRoutes({
         {
           type: 'application',
           name: '@poc/react-form',
+        },
+      ],
+      exact: true,
+    },
+    {
+      type: 'route',
+      path: '/react-form-with-utility-model',
+      routes: [
+        {
+          type: 'application',
+          name: '@poc/react-form-with-utility-model',
         },
       ],
       exact: true,
