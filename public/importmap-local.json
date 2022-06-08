@@ -1,0 +1,13 @@
+{
+  "imports": {
+    "react": "https://unpkg.com/react@17/umd/react.production.min.js",
+    "react-dom": "https://unpkg.com/react-dom@17/umd/react-dom.production.min.js",
+    "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js",
+    "@single-spa/welcome": "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js",
+    "@wiz/root-config": "//localhost:9000/wiz-root-config.js",
+    "@wiz/angular-single": "//localhost:4200/main.js",
+    "@wiz/angular-header": "http://localhost:4201/main.js",
+    "@wiz/react-form": "//localhost:8080/wiz-react-form.js",
+    "@wiz/angular-table": "//localhost:4202/main.js"
+  }
+}
